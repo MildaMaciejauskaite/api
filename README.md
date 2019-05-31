@@ -4,14 +4,12 @@
      get random image from giphy api
 
 ## Entity definition
-Actually object is very big, and a lot of data comes from API requests, contains multiple entities
+Actually object is a video
 
-api_key -> (string < 50)
-limit -> (int < 100)
-rating -> (string < 2 )
-q (search input) -> (string < 300)
-ids -> (string < 50)
-source_image_url -> (string < 500)
+Url -> (string < 50)
+Upload_date -> ( timestamp < 1559315420)
+Update_date -> (timestamp< 1559315420 )
+Image size -> (int < 10000kb)
 
 ## API definition
 All methods require api_key, which is must 
